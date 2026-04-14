@@ -1,0 +1,13 @@
+Flask==3.0.0
+Flask-Cors==4.0.0
+Flask-SQLAlchemy==3.1.1
+PyJWT==2.8.0
+Werkzeug==3.0.1
+deepface==0.0.84
+tf-keras==2.15.0
+groq==0.4.2
+python-dotenv==1.0.1
+requests==2.31.0
+google-api-python-client==2.118.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0

@@ -1,0 +1,24 @@
+# Security (NEVER UPLOAD THESE)
+.env
+backend/.env
+frontend/.env
+
+# Python & Backend
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+backend/app.db
+backend/uploads/
+backend/embeddings/
+
+# Node modules & Frontend
+frontend/node_modules/
+node_modules/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db

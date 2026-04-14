@@ -1,0 +1,38 @@
+
+Here is your Ultimate Cheat Sheet for your college presentation. You can copy this, save it in a Notepad file, and just follow it step-by-step on the day of your project demo!
+🚀 HOW TO START "DRISHYAMITRA" (Presentation Guide)
+Preparation:
+Open Visual Studio Code (VS Code) and open your Drishyamitra (or ai-photo-project) folder.
+STEP 1: Start the Backend (The AI Brain)
+In VS Code, click Terminal (at the top menu) -> New Terminal.
+Type this to go into the backend folder:
+code
+Bash
+cd backend
+Type this to turn on the Python Virtual Environment:
+code
+Bash
+venv\Scripts\activate
+(You will know it worked if you see (venv) appear on the left side of your typing line).
+Type this to start the Flask server:
+code
+Bash
+python app.py
+Wait until the terminal says: * Running on http://127.0.0.1:5000.
+(Leave this terminal alone now. Let it run in the background!)
+STEP 2: Start the Frontend (The React Website)
+In VS Code, look at the Terminal window. Click the + icon (top right of the terminal panel) to open a Second Terminal.
+Type this to go into the frontend folder:
+code
+Bash
+cd frontend
+Type this to start the React website:
+code
+Bash
+npm run dev
+Wait until it says ➜ Local: http://localhost:5173/.
+STEP 3: Open the Website in Chrome
+Open Google Chrome.
+In the top search bar, type exactly this:
+http://localhost:5173
+Press Enter. It will automatically redirect you to the beautiful Blue Landing Page or the Login page (/auth)!
